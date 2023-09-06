@@ -4,7 +4,7 @@
 Read input parameters related to electricity load (demand)
 """
 function load_load_data!(setup::Dict, path::AbstractString, inputs::Dict)
-
+    println("reading load data")
 	# Load related inputs
 	data_directory = joinpath(path, setup["TimeDomainReductionFolder"])
     if setup["TimeDomainReduction"] == 1  && time_domain_reduced_files_exist(data_directory)
@@ -58,7 +58,6 @@ function load_load_data!(setup::Dict, path::AbstractString, inputs::Dict)
     inputs["Voll"] = as_vector(:Voll) / scale_factor # convert from $/MWh $ million/GWh (assuming objective is divided by 1000)
     # Demand in MW
     inputs["pD"] =Matrix(load_in[1:T, start:start+Z-1]) / scale_factor  # convert to GW
-
 	# Cost of non-served energy/demand curtailment
     # Cost of each segment reported as a fraction of value of non-served energy - scaled implicitly
     inputs["pC_D_Curtail"] = as_vector(:Cost_of_Demand_Curtailment_per_MW) * inputs["Voll"][1]
