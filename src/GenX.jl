@@ -8,7 +8,7 @@ export load_dataframe
 export generate_model
 export solve_model
 export write_outputs
-export cluster_inputs
+export cluster_inputs 
 export mga
 export morris
 export simple_operation
@@ -39,12 +39,12 @@ using Statistics
 
 # Uncomment if Gurobi or CPLEX active license and installations are there and the user intends to use either of them
 #using CPLEX
-#using Gurobi
+using Gurobi
 #using CPLEX
 #using MOI
 #using SCIP
 using HiGHS
-using Clp
+# using Clp
 using Cbc
 
 # Global scaling factor used when ParameterScale is on to shift values from MW to GW
