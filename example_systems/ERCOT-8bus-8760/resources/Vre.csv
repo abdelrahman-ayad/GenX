@@ -1,0 +1,12 @@
+region,cluster,Resource,Resource_Type,MGA,R_ID,Zone,Cap_Size,STOR,LDS,FLEX,HYDRO,MUST_RUN,Num_VRE_Bins,Min_Cap_MW,Max_Cap_MW,Min_Charge_Cap_MW,Max_Charge_Cap_MW,Min_Cap_MWh,Max_Cap_MWh,Inv_Cost_per_MWyr,Fixed_OM_Cost_per_MWyr,Inv_Cost_per_MWhyr,Fixed_OM_Cost_per_MWhyr,Inv_Cost_Charge_per_MWyr,Fixed_OM_Cost_Charge_per_MWyr,Var_OM_Cost_per_MWh,Var_OM_Cost_per_MWh_In,Start_Cost_per_MW,Existing_Cap_MW,Fuel,Reg_MAX,Rsv_Max,New_Build,Existing_Cap_MWh,Existing_Charge_Cap_MW,Ramp_Up_Percentage,Ramp_Dn_Percentage,Min_Power
+AREA_1,1,z1_solar,solar,1,14,1,7,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,7,None,0,0,0,0,0,1,1,0
+AREA_1,1,z1_wind,wind,1,15,1,1674,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,1674,None,0,0,0,0,0,1,1,0
+AREA_3,3,z3_solar,solar,1,16,3,100,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,100,None,0,0,0,0,0,1,1,0
+AREA_3,3,z3_wind,wind,1,17,3,2442,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,2442,None,0,0,0,0,0,1,1,0
+AREA_4,4,z4_solar,solar,1,18,4,190,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,190,None,0,0,0,0,0,1,1,0
+AREA_4,4,z4_wind,wind,1,19,4,8730,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,8730,None,0,0,0,0,0,1,1,0
+AREA_5,5,z5_solar,wind,1,20,5,127.5,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,127.5,None,0,0,0,0,0,1,1,0
+AREA_6,6,z7_solar,solar,1,21,7,139,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,139,None,0,0,0,0,0,1,1,0
+AREA_6,6,z7_wind,wind,1,22,7,99.8,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,99.8,None,0,0,0,0,0,1,1,0
+AREA_7,7,z6_wind,wind,1,23,6,3562.2,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,3562.2,None,0,0,0,0,0,1,1,0
+AREA_8,8,z8_solar,solar,1,24,8,10,0,0,0,0,0,1,0,-1,0,-1,0,-1,0,0,0,0,0,0,0,0,0,10,None,0,0,0,0,0,1,1,0
